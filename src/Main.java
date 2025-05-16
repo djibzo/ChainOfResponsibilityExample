@@ -7,7 +7,7 @@ public class Main {
         manager.setNext(director);
         director.setNext(ceo);
 
-        Request req1 = new Request("transport", 54500);
+        Request req1 = new Request("transport", 500);
         Request req2 = new Request("achat matériel", 3000);
         Request req3 = new Request("budget projet", 15000);
 
